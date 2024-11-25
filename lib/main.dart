@@ -38,7 +38,7 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("leroleroleroleroCEREJA"),
+        title: const Text("⁠Vi é de Vidiota!..."),
         backgroundColor: Colors.blue,
       ),
       drawer: Drawer(
@@ -57,7 +57,7 @@ class _MyHomePageState extends State<MyHomePage> {
           ),
           ListTile(
             leading: Icon(Icons.home),
-            title: Text('calma calma calabreso'),
+            title: Text('Zaun'),
             onTap: () {
               Navigator.pushNamed(context, '/');
             },
